@@ -1,4 +1,31 @@
 body {
-    margin:0;
-    background-color: red;
+    margin: 0;
+
+}
+
+.exemplo{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin:auto;
+    margin-top: 100px;
+    transition:all 1s ease;
+}
+
+.exemplo:hover {
+    width: 300px;
+    background-color: blueviolet;
+}
+
+a {
+    color:green;
+    transition:all 10s ease;
+}
+
+a:hover {
+    color:brown;
+    background-color: aqua;
+    font-size:20pt;
+    font-family: 'Abel';
+
 }
