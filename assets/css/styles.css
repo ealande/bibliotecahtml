@@ -105,14 +105,16 @@ nav a:hover{
 }
 
 .banner_title {
-    font-size: 21px;
+    font-size: 22px;
+    color: white;
 
 }
 
 .banner_descr {
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .banner_options a {
@@ -123,4 +125,36 @@ nav a:hover{
     color: white;
     text-decoration: none;
     
+}
+
+.banner_options a:hover {
+    background-color:white;
+    color:#2b4c99;
+
+}
+
+
+
+.hour {
+    text-align:right;
+    color:white;
+    font-size:15px;
+    float: right;
+}
+
+.list_dates{
+    border-bottom: 1px solid #0079c7;
+    color:white;
+    display: block;
+    font-size:15px;
+    list-style: none;
+    padding-top: 20px;
+ 
+}
+
+.ul_dates {
+    padding-left:0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
 }
