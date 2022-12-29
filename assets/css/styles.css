@@ -188,3 +188,11 @@ nav a:hover{
     background-color: #0079c7;
     margin-top: 2px;
 }
+
+.departments {
+    display: inline-flex;
+    width: 100px;
+    height:100px;
+    background-color:#39aae1;
+    margin: 10px;
+}
