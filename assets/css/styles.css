@@ -9,6 +9,11 @@ header {
     height: 120px;
     
 }
+
+.flex {
+    display:flex;
+    flex-wrap: wrap;
+}
 .container{
     display: flex;
     justify-content: space-between;
@@ -170,7 +175,9 @@ nav a:hover{
 #geral aside {
     flex:1;
 }
-
+.widget_body {
+    margin: 10px;
+}
 .widget_title {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -196,3 +203,76 @@ nav a:hover{
     background-color:#39aae1;
     margin: 10px;
 }
+
+.ul_makeappointment{
+    color:black;
+    display: block;
+    font-size:15px;
+    list-style: none;
+    padding-left:0px;
+}
+
+.list_appoitment{
+    text-align:justify;
+    color:black;
+    font-size:15px;
+    border-bottom: 1px solid #0079c7;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    max-height:fit-content;
+    margin-right: 10px;
+}
+
+article a {
+    text-decoration: none;
+}
+
+article .newsData {
+    display: flex;
+}
+
+article .newsDate {
+    background-color:#2b4c99;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+    border-bottom-left-radius: 0;
+}
+article .newsComments {
+    background-color:#39aae1;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+    margin-left: 3px;
+
+}
+article .newsThumb img {
+    margin-top: 30px;
+}
+
+article .newsThumb img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+article .newsTitle {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+article .newsResume {
+    color: #5c5c5c;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
