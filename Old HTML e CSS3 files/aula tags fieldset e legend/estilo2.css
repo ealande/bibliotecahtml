@@ -1,0 +1,25 @@
+fieldset{
+    width:50px;
+    background-color: rgb(175, 230, 227);
+    font-size:15px;
+    font-family: 'Abel';
+    margin-bottom:20px;
+    border:2px dashed rgb(0, 89, 255);
+}
+
+fieldset:hover{
+    background-color: aqua;
+    border-color:black;
+}
+
+legend{
+    color:rgb(45, 48, 48);
+    padding: 5px;
+    border:5px;
+}
+
+legend:hover{
+    background-color:aquamarine;
+    border:5px;
+    border-color:yellow;
+}

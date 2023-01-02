@@ -1,0 +1,53 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:50px;
+    font-size:17px;
+}
+h1 {
+    font-family: 'Abel';
+}
+
+label {
+    display:block;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+input[type=text], textarea, select {
+    padding:10px;
+    width: 500px;
+    font-size: 15px;
+    border:1px solid rgb(25, 30, 109);
+    outline-color: purple;
+    outline: 0;
+    outline-color: aquamarine;
+    margin-top: 10px;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+.termoslink {
+    color: rgb(95, 18, 18);
+    text-decoration: none;
+
+}
+
+.termoslink:hover {
+    text-decoration: underline
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    background-color: antiquewhite;
+}
+
+button:hover{
+    background-color: bisque;
+}
