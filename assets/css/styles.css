@@ -292,8 +292,8 @@ footer {
     flex:1;
     color: white;
     padding: 40px;
-    padding-left:5px;
-    padding-top: 10px;
+    padding-left:20px;
+    padding-top: 20px;
 }
 
 .fm1 {
@@ -390,7 +390,9 @@ footer {
     font-size: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: white;
+    margin-right: 20px;
+    color: #727272;
+    text-align:left;
     
 }
 
@@ -417,4 +419,24 @@ footer {
     font-size: 10px;
     color:#FFFFFF;
     padding-top: 5px;
+}
+
+.footerDescrList ul{
+    color: #727272;
+    list-style: none;
+    padding-left: 0;
+    font-size: 12px;
+    justify-content: space-between;
+   
+}
+
+.footerDescrList li  span{
+    justify-content: space-between;
+    float: right;
+    margin-right:20px;
+}
+
+.footerDescrList li span a {
+    color:#FFFFFF;
+    text-decoration:underline;
 }
