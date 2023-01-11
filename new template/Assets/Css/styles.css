@@ -23,13 +23,30 @@ header {
     height: 100;
 }
 
+.logoImg {
+    width: 80px;
+    height: 80px;
+    background-color: #b28756;
+}
+
 .headerMenu{
     flex:1;
     display: flex;
     justify-content: flex-end;
 }
-.logoImg {
-    width: 80px;
-    height: 80px;
-    background-color: #b28756;
+
+.headerMenu ul,
+.headerMenu li {
+    list-style:circle;
+}
+
+.headerMenu ul {
+    display: flex;
+}
+.headerMenu li{
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
 }
