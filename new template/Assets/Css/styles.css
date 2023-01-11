@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
 }
 
 header {
     height: 100px;
     background-color: #000;
     color:white;
+    font-size: 15px;
 }
 
 .header {
@@ -20,7 +22,7 @@ header {
 
 .headerLogo{
     width: 100px;
-    height: 100;
+   
 }
 
 .logoImg {
@@ -37,16 +39,26 @@ header {
 
 .headerMenu ul,
 .headerMenu li {
-    list-style:circle;
+    list-style: none;
 }
 
 .headerMenu ul {
     display: flex;
 }
-.headerMenu li{
+.headerMenu li a{
     color:white;
     text-transform: uppercase;
-    font-weight: bold;
-    display: block;
+    font-weight: 600;
+    display: flex;
     text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+    border-bottom: 5px solid #000;
+    height: 100px;
+}
+.headerMenu li a:hover,
+.headerMenu .active a{
+    border-bottom: 5px solid #b28756;
+    color:#b28756;
 }
